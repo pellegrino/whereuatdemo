@@ -68,6 +68,7 @@ GEM
     multi_json (1.0.3)
     nifty-generators (0.4.6)
     nokogiri (1.4.3.1)
+    pg (0.11.0)
     pivotal-tracker (0.3.1)
       builder
       happymapper (>= 0.3.2)
@@ -139,6 +140,7 @@ DEPENDENCIES
   jquery-rails
   mocha
   nifty-generators
+  pg
   rails (= 3.1.0.rc4)
   sass-rails (~> 3.1.0.rc)
   sqlite3
