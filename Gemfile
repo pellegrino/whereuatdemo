@@ -15,14 +15,15 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-	gem "mocha"
+  gem "mocha"
 end
 
 group :development do
-	gem 'nifty-generators' 
+  gem 'nifty-generators' 
 end 	
+
+gem 'pg'
 
 group :production do
 	gem 'therubyracer-heroku' , '0.8.1.pre3'
-  gem 'pg'
 end 
